@@ -1,0 +1,26 @@
+{
+  "name": "gulp_basics",
+  "version": "1.0.0",
+  "description": "- This repo includes some basic tasks of gulp\r ## What is gulp\r - Open source task runner\r - Front-end build system Built on Node.js and NPM\r - Used for time consuming & repetitive tasks\r - Hundreds of plugins available for different tasks",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mangi-Lal/Gulp_basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mangi-Lal/Gulp_basics/issues"
+  },
+  "homepage": "https://github.com/Mangi-Lal/Gulp_basics#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2"
+  }
+}
