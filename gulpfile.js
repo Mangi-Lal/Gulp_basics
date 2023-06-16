@@ -1,3 +1,4 @@
+const gulp = require('gulp');
 const {src,dest,series} = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 const imagemin = require('gulp-imagemin');
@@ -33,4 +34,10 @@ function optimisedJs(){
     .pipe(uglify())
     .pipe(dest('dist'));
 }
-exports.default = series(check, scssTask,copyHtml,optimisedJs);
+// Install imagemin version 7.1.0 to use require('gulp-imageMin');
+
+gulp.task('imageMin', () =>
+	gulp.src('app/images/—Pngtree—computer screen_5418184.png')
+		.pipe(imagemin())
+		.pipe(gulp.dest('dist'))
+);
