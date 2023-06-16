@@ -20,5 +20,11 @@
 - Single purpose plugins
 - Files not affected until all plugins are proceeded
 
-### Install gulp globally
-- npm install -g gulp
+## Install gulp 
+~~~
+npm install gulp 
+~~~
+## Install gulp plugin for SASS
+~~~
+npm install gulp-sass 
+~~~
